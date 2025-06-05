@@ -9,7 +9,7 @@ Below is a list of available implementations in different programming languages.
 - [Java](./Java) - Example implementation using Java with Maven for dependency management.
 - [C#](./C%23)
 - [PowerShell](./PowerShell)
-- [Bash](./Bash/send-alert.sh)
+- [Bash](./Bash)
 
 ## Contributing
 

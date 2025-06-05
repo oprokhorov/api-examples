@@ -1,34 +1,11 @@
 ﻿using System.Text;
 using System.Text.Json;
-using System.IO;
 
 class DeskAlertsAPI
 {
     private static readonly HttpClient Client = new HttpClient();
-    private static readonly string ApiEndpoint = GetEnvironmentVariable("DESKALERTS_API_ENDPOINT") ?? throw new Exception("DESKALERTS_API_ENDPOINT environment variable not set");
-    private static readonly string ApiKey = GetEnvironmentVariable("DESKALERTS_API_KEY") ?? throw new Exception("DESKALERTS_API_KEY environment variable not set");
-
-    // Custom method to load environment variables from .env file if not set in system
-    private static string GetEnvironmentVariable(string name)
-    {
-        string value = Environment.GetEnvironmentVariable(name);
-        if (!string.IsNullOrEmpty(value))
-            return value;
-
-        // Fallback to reading from .env file if it exists
-        string envFilePath = Path.Combine(Directory.GetCurrentDirectory(), ".env");
-        if (File.Exists(envFilePath))
-        {
-            foreach (var line in File.ReadAllLines(envFilePath))
-            {
-                if (line.StartsWith($"{name}="))
-                {
-                    return line.Split('=')[1].Trim();
-                }
-            }
-        }
-        return null;
-    }
+    private static readonly string ApiEndpoint = Environment.GetEnvironmentVariable("DESKALERTS_API_ENDPOINT") ?? throw new Exception("DESKALERTS_API_ENDPOINT environment variable not set");
+    private static readonly string ApiKey = Environment.GetEnvironmentVariable("DESKALERTS_API_KEY") ?? throw new Exception("DESKALERTS_API_KEY environment variable not set");
 
     static async Task Main(string[] args)
     {

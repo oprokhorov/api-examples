@@ -16,6 +16,11 @@ This project provides a Java implementation for interacting with the DeskAlerts 
    ```
    This will download the required dependencies specified in `pom.xml`, including Jackson for JSON processing and `dotenv-java` for loading environment variables.
 
+## Enable API key auth in DeskAlerts
+
+In order to use API key auth on your DeskAlerts server, please go to Settings > API > Enable API Secret key > Click Save and Copy the API key
+You will use this key in the next steps.
+
 ## Environment Variables
 
 The application uses environment variables for configuration to keep sensitive information like API keys secure. **Note**: Java does not automatically load `.env` files into environment variables like some other languages (e.g., Node.js). This project uses the `dotenv-java` library to load variables from a `.env` file if present.

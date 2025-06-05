@@ -8,7 +8,7 @@ Below is a list of available implementations in different programming languages.
 
 - [Java](./Java) - Example implementation using Java with Maven for dependency management.
 - [PowerShell](./PowerShell)
-- [C#](./C#)
+- [C#](./C%23)
 
 ## Contributing
 

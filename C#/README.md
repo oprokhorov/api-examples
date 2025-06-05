@@ -8,7 +8,7 @@ The `SendAlert` application logs into the DeskAlerts system using an API key, se
 
 ## Prerequisites
 
-- .NET SDK 6.0 or higher
+- .NET SDK 9.0 or higher
 - DeskAlerts API endpoint URL and API key
 
 ## Enable API key auth in DeskAlerts

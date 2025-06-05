@@ -36,7 +36,3 @@ You will use this key in the next steps.
    .\Send-Alert.ps1
    ```
 3. Check the output for the response from the alert creation API call to confirm the alert was sent successfully.
-
-## License
-
-This example is provided for educational purposes. Ensure you comply with DeskAlerts' terms of use and licensing.

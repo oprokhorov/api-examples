@@ -39,7 +39,3 @@ You will use this key in the next steps.
    dotnet run .\SendAlert.csproj
    ```
 3. Check the console output for the response from the alert creation API call to confirm the alert was sent successfully.
-
-## License
-
-This example is provided for educational purposes. Ensure you comply with DeskAlerts' terms of use and licensing.

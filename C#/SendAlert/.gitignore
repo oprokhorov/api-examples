@@ -1,0 +1,25 @@
+# .NET Core / C# project ignores
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Visual Studio files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Environment variables or secrets
+.env
+appsettings.json
+
+# OS generated files
+.DS_Store
+Thumbs.db

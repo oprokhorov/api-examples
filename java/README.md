@@ -6,7 +6,6 @@ This project provides a Java implementation for interacting with the DeskAlerts 
 
 - **Java 11 or higher**: Required for using the `java.net.http` package.
 - **Maven**: For building the project and managing dependencies.
-- **Visual Studio Code (optional)**: With Java extensions for development.
 
 ## Setup
 
@@ -31,12 +30,12 @@ The application uses environment variables for configuration to keep sensitive i
 2. **Set Environment Variables Manually** (if not using `.env` file):
    - On Windows, in a command prompt or PowerShell, set the variables before running the program:
      ```
-     set API_ENDPOINT=https://trials.deskalerts.com/TestTrial02/api/
+     set API_ENDPOINT=https://yourdeskalertsserver.com/DeskAlerts/api/
      set API_KEY=your-api-key-here
      ```
    - On Unix-like systems (Linux/Mac), use:
      ```
-     export API_ENDPOINT=https://trials.deskalerts.com/TestTrial02/api/
+     export API_ENDPOINT=https://yourdeskalertsserver.com/DeskAlerts/api/
      export API_KEY=your-api-key-here
      ```
 

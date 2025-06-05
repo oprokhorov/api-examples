@@ -58,7 +58,7 @@ To send an alert, run the compiled JAR file or use Maven to execute the program 
 
 1. **Using the JAR file**:
    ```
-   java -jar target/original-send-alert-1.0.0.jar
+   java -jar target/send-alert-1.0.0.jar
    ```
    Ensure environment variables are set before running this command if you are using custom values.
 
@@ -82,3 +82,4 @@ If you encounter issues (e.g., HTTP 500 errors), the program prints the JSON req
 To change the target user, message, or title of the alert, modify the `main` method in `SendAlert.java`:
 - Update the user name in the `getUser("John Doe")` call.
 - Update the message and title in the `sendAlert(userId, message, title)` call.
+- Provide other optional parameters.

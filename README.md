@@ -6,7 +6,8 @@ This repository contains example code for interacting with the DeskAlerts REST A
 
 Below is a list of available implementations in different programming languages. Each link leads to a detailed README with setup instructions, requirements, and usage examples for that language.
 
-- [Java](./java/README.md) - Example implementation using Java with Maven for dependency management.
+- [Java](./Java/README.md) - Example implementation using Java with Maven for dependency management.
+- [PowerShell](./PowerShell/README.md)
 - *More languages coming soon...*
 
 ## Contributing

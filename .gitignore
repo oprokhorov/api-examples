@@ -1,0 +1,55 @@
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build directories and artifacts
+/target/
+/build/
+/dist/
+/out/
+/bin/
+
+# Dependency directories
+/node_modules/
+/venv/
+/env/
+/lib/
+/libs/
+
+# Compiled files
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Environment variable files
+.env
+.env.local
+.env.development
+.env.production
+
+# Test and coverage reports
+/coverage/
+/test-reports/
+/reports/
+
+# Miscellaneous
+*.bak
+*.backup
+*.zip
+*.tar.gz
+*.rar
+
+# Project-specific build folders
+java/target/

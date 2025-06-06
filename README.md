@@ -11,6 +11,7 @@ Below is a list of available implementations in different programming languages.
 - [PowerShell](./PowerShell)
 - [Bash](./Bash)
 - [Go](./Go)
+- [Python](./Python)
 
 ## Contributing
 

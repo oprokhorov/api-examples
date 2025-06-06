@@ -10,6 +10,7 @@ Below is a list of available implementations in different programming languages.
 - [C#](./C%23)
 - [PowerShell](./PowerShell)
 - [Bash](./Bash)
+- [Go](./Go)
 
 ## Contributing
 
